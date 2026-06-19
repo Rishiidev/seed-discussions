@@ -1,6 +1,8 @@
 # 💬 seed-discussions — 5 tailored GitHub Discussion posts in 60 seconds
 
 <div align="center">
+  <img src="assets/social-preview.svg" alt="seed-discussions — 5 tailored GitHub Discussion posts in 60 seconds" width="100%"/>
+  <br/><br/>
 
 **One command seeds your GitHub Discussions with real, project-specific content — not lorem ipsum.**
 
