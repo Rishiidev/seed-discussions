@@ -1,0 +1,40 @@
+name: Bug Report
+description: A discussion wasn't created, had wrong content, or the skill errored
+labels: ["bug"]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: Target repo
+      description: The GitHub repo you ran the skill against
+      placeholder: owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: project-type
+    attributes:
+      label: Detected project type
+      options:
+        - claude-skill
+        - web-app
+        - pwa
+        - node-library
+        - cli-tool
+        - python-package
+        - rust-crate
+        - go-module
+        - open-source (fallback)
+        - Wrong type was detected
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What went wrong?
+      description: Which step failed, what error appeared, or what was wrong with the generated content
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should have happened?
+    validations:
+      required: true

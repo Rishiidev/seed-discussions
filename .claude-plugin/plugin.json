@@ -1,0 +1,10 @@
+{
+  "name": "seed-discussions",
+  "description": "Seeds 5 tailored GitHub Discussion posts in under 60 seconds — detects project type, reads your README, and generates real content.",
+  "version": "1.0.0",
+  "author": { "name": "Rishiidev" },
+  "homepage": "https://github.com/Rishiidev/seed-discussions",
+  "repository": "https://github.com/Rishiidev/seed-discussions",
+  "license": "MIT",
+  "skills": "./skills"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "seed-discussions",
+  "owner": {
+    "name": "Rishiidev",
+    "url": "https://github.com/Rishiidev"
+  },
+  "metadata": {
+    "description": "Seeds 5 tailored GitHub Discussion posts in under 60 seconds — detects project type, reads your README, and generates real content.",
+    "version": "1.0.0",
+    "repository": "https://github.com/Rishiidev/seed-discussions"
+  },
+  "plugins": [
+    {
+      "name": "seed-discussions",
+      "description": "Say 'seed discussions' and get 5 project-tailored discussion posts created in your GitHub repo. Detects whether you have a Claude skill, web app, library, CLI tool, or open-source project — then generates a Roadmap post, a voting thread, a Show & Tell prompt, a tips guide, and a Q&A starter. Enables Discussions if off. Works on any public GitHub repo via the gh CLI.",
+      "source": "./"
+    }
+  ]
+}

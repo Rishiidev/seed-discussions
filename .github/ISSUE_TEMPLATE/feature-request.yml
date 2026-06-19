@@ -1,0 +1,35 @@
+name: Feature Request
+description: Suggest a new project type, template improvement, or skill enhancement
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: What kind of improvement?
+      options:
+        - New project type template
+        - Better content for existing template
+        - New trigger phrase
+        - Step logic improvement
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's missing or wrong?
+      description: What does the current skill fail to do, or do poorly?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: What should it do instead?
+      description: Describe the ideal behavior. If this is a template improvement, paste a better version.
+    validations:
+      required: true
+  - type: input
+    id: example-repo
+    attributes:
+      label: Example repo (optional)
+      description: A repo where the current output was poor — helps us reproduce
